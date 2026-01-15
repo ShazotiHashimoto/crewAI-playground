@@ -120,4 +120,4 @@ inputs = {
 result = crew.kickoff(inputs=inputs)
 
 from IPython.display import Markdown
-Markdown(result.raw if hasattr(result, "raw") else str(result))
+print(Markdown(result.raw if hasattr(result, "raw") else str(result)))
